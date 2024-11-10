@@ -4,6 +4,7 @@
 [![Supported Java Version](https://img.shields.io/badge/Supported%20Java%20Version-11%2B-informational?style=for-the-badge)]()
 ---
 ## Description
+
 This library, developed by Haganicolau, provides an interface for sending messages to Slack with customizable blocks and attachments.
 Using the `SlackClient` class, you can configure messages with different sections, headers, and attachments, using plain text or markdown formatting.
 The library is designed to simplify integration with Slack's Incoming Webhooks and OAuth API, allowing for easy customization and error handling.
