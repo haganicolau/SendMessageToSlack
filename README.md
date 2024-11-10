@@ -2,15 +2,17 @@
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.hndrs.slack/slack-spring-boot-starter?style=for-the-badge)](https://search.maven.org/artifact/io.hndrs.slack/slack-spring-boot-starter)
 [![Supported Java Version](https://img.shields.io/badge/Supported%20Java%20Version-11%2B-informational?style=for-the-badge)]()
----
+
 ## Description
+
 
 This library, developed by Haganicolau, provides an interface for sending messages to Slack with customizable blocks and attachments.
 Using the `SlackClient` class, you can configure messages with different sections, headers, and attachments, using plain text or markdown formatting.
 The library is designed to simplify integration with Slack's Incoming Webhooks and OAuth API, allowing for easy customization and error handling.
 It supports adding sections with rich text (such as bold and italicized formatting) and color-coded attachments, making it suitable for various Slack notifications
 and alerting applications.
----
+
+
 ## Prerequisites
 To use this library to send messages to Slack, you'll need to set up two essential components:
 
@@ -29,7 +31,6 @@ An OAuth token authorizes sending messages on behalf of a specific user or app. 
 - In the app settings, select "OAuth & Permissions" and add the required scopes, such as `chat:write` to send messages.
 - Install the app in your workspace to generate the OAuth Token.
 
----
 
 ## Custom Logger Interface 
 
@@ -80,7 +81,6 @@ SlackClient slackClient = new SlackClient(
         new Log4jLogger() // Or Slf4jLogger, depending on the implementation you prefer
 );
 ```
----
 
 
 ## Example how to use
